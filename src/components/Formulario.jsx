@@ -18,7 +18,6 @@ const Formulario = ( { pacientes, setPacientes, paciente, setPaciente} ) => {
       setEmail(paciente.email)
       setFecha(paciente.fecha)
       setSintomas(paciente.sintomas)
-      console.log("useEffect")
     }
   },[paciente])
 
